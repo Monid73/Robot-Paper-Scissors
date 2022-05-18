@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень-ножницы-бумага</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        Камень - серый
+        Ножницы - оранжевые
+        Бумага - белая
+    -->
+        <h1 class="blox-status fonts">First player's turn</h1>
+    <div class="blox-container">    
+        <div class="d-flex fonts">
+            <div class="left-side">
+                <h1 class="blox-player-name">Player 1</h1>
+                <div class="choice-player-1"></div>
+                <p class="letter-A">A</p>
+                <p class="letter-S">S</p>
+                <p class="letter-D">D</p>
+                <div class="rock"></div>
+                <div class="paper"></div>
+                <div class="scissors"></div>
+                <div class="open-hand"></div>
+            </div>
+            <div class="right-side">
+                <h1 class="blox-player-name-1">Player 2</h1>
+                <div class="choice-player-2"></div>
+                <p class="letter-J">J</p>
+                <p class="letter-K">K</p>
+                <p class="letter-L">L</p>
+                <div class="rock-1"></div>
+                <div class="paper-1"></div>
+                <div class="scissors-1"></div>
+                <div class="open-hand-1"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="button fonts" style="text-align: center; padding-top: 5px; font-size: 25px;">Start again</div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

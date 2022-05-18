@@ -1,0 +1,219 @@
+body{
+    margin:0;
+    padding:0;
+/*    background: linear-gradient(to right, #96DEDA, #50C9C3);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to left, #c9d6ff, #e2e2e2);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fonts {
+    font-family: 'Poppins', sans-serif;
+}
+
+.blox-container{
+    width: 1300px;
+    height: 700px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 75px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.blox-status {
+    text-align: center; 
+    font-size: 50px;
+    transition: 1s;
+}
+
+.blox-player-name {
+    position: absolute;
+    font-size: 40px;
+    left: 250px;
+    top: 120px;
+}
+
+.blox-player-name-1 {
+    position: absolute;
+    font-size: 40px;
+    left: 885px;
+    top: 120px;
+}
+
+.left-side {
+    width: 650px;
+    height: 700px;
+}
+.right-side {
+    width: 650px;
+    height: 700px;
+}
+
+.letter-A {
+    position: absolute;
+    font-size: 40px;
+    left: 120px;
+    top: 277px;
+}
+
+.letter-S {
+    position: absolute;
+    font-size: 40px;
+    left: 310px;
+    top: 180px;
+}
+
+.letter-D {
+    position: absolute;
+    font-size: 40px;
+    left: 500px;
+    top: 277px;
+}
+
+.letter-J {
+    position: absolute;
+    font-size: 40px;
+    left: 755px;
+    top: 277px;
+}
+
+.letter-K {
+    position: absolute;
+    font-size: 40px;
+    left: 947px;
+    top: 182px;
+}
+
+.letter-L {
+    position: absolute;
+    font-size: 40px;
+    left: 1145px;
+    top: 275px;
+}
+
+.rock {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(rock.png);
+    border-radius: 100px;
+    left: 160px;
+    top: 310px;
+}
+
+.paper {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(paper.png);
+    border-radius: 100px;
+    left: 290px;
+    top: 270px;
+}
+
+.scissors {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(scissors.png);
+    border-radius: 100px;
+    left: 425px;
+    top: 310px;
+}
+
+.rock-1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(rock.png);
+    border-radius: 100px;
+    left: 790px;
+    top: 310px;
+}
+
+.paper-1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(paper.png);
+    border-radius: 100px;
+    left: 930px;
+    top: 270px;
+}
+
+.scissors-1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(scissors.png);
+    border-radius: 100px;
+    left: 1070px;
+    top: 310px;
+}
+
+.open-hand {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: black;
+    background-size: cover;
+    border-radius: 100px;
+    opacity: 0%;
+    left: 490px;
+    top: 580px;
+}
+
+.open-hand-1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: black;
+    background-size: cover;
+    border-radius: 100px;
+    opacity: 0%;
+    left: 740px;
+    top: 580px;
+}
+
+.choice-player-1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 220px;
+    top: 400px;
+    border-radius: 100px;
+    background-image: url(que.png);
+} 
+
+.choice-player-2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 860px;
+    top: 400px;
+    border-radius: 100px;
+    background-image: url(roboque.png);
+}
+
+.button {
+    height: 45px;
+    width: 170px;
+    background-color: floralwhite;
+    position: absolute;
+    border-radius: 10px;
+    left: 860px;
+    top: 850px;
+    opacity: 0%;
+}
+
